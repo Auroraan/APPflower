@@ -1,0 +1,86 @@
+*{
+    margin:0 ;
+    padding:0;
+}
+body{
+    background-color: rgba(185, 185, 185, 0.3);
+}
+.block{
+    width: 320px;
+    height:auto;
+}
+.bgblock{
+    width: 100%;
+    height: 180px;
+    background: url("../img/mbg.jpg") no-repeat;
+}
+.bgblock>img{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: 1px solid white;
+    border-radius:50% ;
+}
+.bgblock>span{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 135px;
+    font-size: 2rem;
+    color: white;
+}
+.banner1{
+    padding-bottom: 5px;
+    padding-top: 20px;
+    background-color: white;
+    width: 100%;
+
+}
+.banner2{
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+
+}
+.banner1 img{
+    max-height: 30px;
+}
+.banner3{
+    height: 500px;
+    line-height: 30px;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+.banner3_row{
+    margin-bottom: 20px;
+}
+.banner3_row>div:nth-child(2){
+    border-bottom: 1px solid gainsboro;
+}
+.banner_img1{
+    max-height: 30px;
+}
+.banner_img2{
+    max-height: 20px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    margin-top: 20px;
+    width: 320px;
+    background-color: white;
+}
+.footer_img{
+    margin-top: 10px;
+}
+.footer_img>div>a:hover{
+    text-decoration: none;
+}
+.textinfo{
+    color: black;
+}
+.myself{
+    max-height:23px ;
+}

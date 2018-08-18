@@ -1,0 +1,63 @@
+*{
+    margin:0 ;
+    padding:0;
+}
+body{
+    background-color: rgba(185, 185, 185, 0.3);
+}
+.block{
+    width: 320px;
+    height:auto;
+}
+.block_row{
+    margin-top: 30px;
+}
+.send{
+    margin-top: -15px;
+    height:83px;
+    position: relative;
+    background-color: white;
+    border-bottom: 1px solid silver;
+}
+.send>div:nth-child(3){
+    height: 40px;
+    border-bottom: 2px solid red;
+}
+.sanjiao1{
+    margin-top: 20px;
+    display: block;
+    width: 150px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.sanjiao2{
+    margin-top: 20px;
+    display: block;
+    width: 150px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: orange;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    margin-top: 20px;
+    width: 320px;
+    background-color: white;
+}
+.footer_img{
+    margin-top: 10px;
+}
+.footer_img>div>a:hover{
+    text-decoration: none;
+}
+.textinfo{
+    color: black;
+}
+.myself{
+    max-height:23px ;
+}
